@@ -1,8 +1,17 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "ES2017",
-    "outDir": "lib"
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "module": "ESNext",
+    "target": "ESNext",
+    "outDir": "lib",
+    "declaration": true,
+    "sourceMap": true,
+    "types": [],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node"
   },
   "include": ["src"]
 }
